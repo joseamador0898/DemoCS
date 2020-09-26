@@ -18,11 +18,11 @@ def evaluateSecretMessages():
     logging.info("My result :{}".format(result))
     return jsonify(result);
 
-    def encrypt(n,text):
-        processed_text = :""
-        for ch in text:
-            if ch.isalnum():
-                processed_text += ch.upper()
+def encrypt(n,text):
+    processed_text = :""
+    for ch in text:
+        if ch.isalnum():
+            processed_text += ch.upper()
     #encrypt the string
     start = 0
     list_of_substrings = []
